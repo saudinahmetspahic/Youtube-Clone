@@ -1,0 +1,22 @@
+.button{
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button *{
+    margin: 0px 10px;
+}
+
+
+.button:hover{
+   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.shrinked{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

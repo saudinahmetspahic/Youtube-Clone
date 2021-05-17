@@ -1,0 +1,79 @@
+.navbar{
+    height: 60px;
+    background-color: rgba(33, 33, 33, 0.98);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.navbar-section:nth-child(1), .navbar-section:nth-child(3){
+    width: auto;
+}
+
+.yt-logo{
+    object-fit: cover;
+    height: 30px;
+}
+
+.yt-logo-title{
+    position: relative;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    margin-right: 50px;
+}
+
+.yt-logo-title::before{
+    content: 'BA';
+    position: absolute;
+    top: 0px;
+    right: -20px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.search-input{
+    padding: 5px;
+    font-size: 15px;
+    color: darkgray;
+    font-weight: bold;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 600px;
+}
+
+input:active, input:focus{
+    border: none;
+    outline: 1px solid dodgerblue;
+}
+
+.icon{
+    margin: 0px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 5px 25px;
+    background-color: rgb(71, 64, 64);
+    border: 0px;
+    color: rgb(160, 153, 153);
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 100%;
+}
+
+.btn:hover{
+    color: rgb(201, 186, 186);
+}
